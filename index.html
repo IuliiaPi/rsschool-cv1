@@ -1,0 +1,250 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>cv</title>
+    <link rel="stylesheet" type="text/css" href="style.css" />
+    <!-- <link rel="icon" href="assets/favicon.ico"> -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
+      rel="stylesheet"
+    />
+
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.4.0/styles/default.min.css"
+    />
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.4.0/highlight.min.js"></script>
+    <!-- and it's easy to individually load additional languages -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.4.0/languages/go.min.js"></script>
+
+    <!-- <link rel="stylesheet" href="/path/to/styles/default.min.css">
+<script src="/path/to/highlight.min.js"></script>
+<script>hljs.highlightAll();</script> -->
+
+    <!-- <link rel="stylesheet"
+      href="//cdnjs.cloudflare.com/ajax/libs/highlight.js/11.4.0/styles/default.min.css">
+<script src="//cdnjs.cloudflare.com/ajax/libs/highlight.js/11.4.0/highlight.min.js"></script> -->
+
+    <!-- <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.15.9/styles/default.min.css">
+<script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.15.9/highlight.min.js"></script> -->
+    <script>
+      hljs.initHighlightingOnLoad();
+    </script>
+  </head>
+
+  <body>
+
+
+    <!--Header-->
+
+    <header class="header">
+      <div class="container">
+        <nav class="nav">
+          <ul class="nav-list">
+            <li class="nav-item">
+              <a href="#contacts" class="nav-link"> Contacts </a>
+            </li>
+            <li class="nav-item">
+              <a href="#summary" class="nav-link"> Summary </a>
+            </li>
+            <li class="nav-item">
+              <a href="#skills" class="nav-link"> Skills </a>
+            </li>
+            <li class="nav-item">
+              <a href="#code" class="nav-link"> Code </a>
+            </li>
+            <li class="nav-item">
+              <a href="#projects" class="nav-link"> Projects </a>
+            </li>
+            <li class="nav-item">
+              <a href="#education" class="nav-link"> Education </a>
+            </li>
+            <li class="nav-item">
+              <a href="#languages" class="nav-link"> Languages </a>
+            </li>
+            <li class="nav-item">
+              <a href="#hobbies" class="nav-link"> Hobbies </a>
+            </li>
+          </ul>
+        </nav>
+      </div>
+    </header>
+
+
+
+    <!--Main Area-->
+
+    <main class="main">
+    <div class="container">
+
+      <aside class="aside">
+
+        <header class="main-header">
+          <section class="section" id="profile">
+            <figure>
+              <img
+                class="avatar" class="w3-circle"
+                
+                src="https://github.com/IuliiaPi/CV/blob/main/assets/svg/myavatar.jpg?raw=true"
+                alt="my photo"
+                width="100"
+                height="100"
+              />
+            </figure>
+
+            <h1 class="section-title">Iuliia Pidlisna</h1>
+            <h4> Front-End Developer </h4>
+          </section>
+        </header>
+
+        <section class="section" id="contacts">
+          <h2 class="section-title">Contacts</h2>
+          <ul class="contacts-list">
+            <li>Email: <a href="email:Julia.Pidlisna@gmail.com"> Julia.Pidlisna@gmail.com </a> </li>
+            <li>Github: IuliiaPi</li>
+            <li>Telegram: @IuliiaPi</li>
+            <li>Discord: IuliiaPi#7924</li>
+            <!-- <li>Mobile:(201) 680-17-69</li> -->
+          </ul>
+        </section>
+
+        <section class="section" id="languages">
+          <h2 class="section-title">Languages</h2>
+          <ul class="languages-list">
+            <li>English</li>
+            <li>Ukrainian</li>
+            <li>Russian</li>
+          </ul>
+        </section>
+
+        <section class="section" id="hobbies">
+          <h2 class="section-title">Hobbies</h2>
+          <ul class="hobbies-list">
+            <li>Music</li>
+            <li>Yoga</li>
+            <li>Painting</li>
+          </ul>
+        </section>
+      </aside>
+
+      <article class="container" id="main-container">
+        <section class="section" id="summary">
+          <h2 class="section-title">Summary</h2>
+          <p>
+            I am a Junior Front-End Developer, who like lean something new, creative and experimenting. 
+            <br>
+            I like to read books, dance and yoga. I am prefer healthy lifestyle.
+            <br>
+            My goal is to improve JavaScript skills and create new projects that will help people.
+          </p>
+        </section>
+
+        <section class="section" id="skills">
+          <h2 class="section-title">Skills</h2>
+          <ul class="skills-list">
+            <li>JavaScript</li>
+            <li>HTML5</li>
+            <li>CSS3</li>
+            <li> Version control: GIT, Github</li>
+            <li> Graphics: Figma </li>
+            <li> SVG </li>
+          </ul>
+        </section>
+
+        <section class="section" id="code">
+          <h2 class="section-title">Code</h2>
+          <pre class="code"> <code class="language-html">
+            function mergeArrays(arr1, arr2) {
+              const newArray = [...new Set(arr1.concat(arr2))];
+              return newArray.sort((a, b) => a - b);
+            } </code> </pre>
+        </section>
+
+        <section class="section" id="projects">
+          <h2 class="section-title">Projects</h2>
+          <nav class="nav">
+            <ul class="projects-list">
+              <li class="nav-item">
+              Calculate your Body Mass Index (BMI): 
+              <a href="#" class="nav-link"> BMI </a></li>
+              <li class="nav-item">
+                Test your JavaScript skills :
+                <a href="#" class="nav-link"> JS tests </a></li>
+            </ul>
+          </nav>
+        </section>
+
+        <section class="section" id="education">
+          <h2 class="section-title">Education</h2>
+          <p>
+            Igor Sikorsky Kyiv Polytechnic Institute, Kyiv, Ukraine
+            <span> (September 2004 - June 2010) </span>
+          </p>
+        </section>
+
+      </article>
+
+    </div>
+    </main>
+
+
+    <!--Footer-->
+
+    <footer class="footer">
+      <div class="container" id="footer-container">
+
+        <div class="myGithub">
+          <a href="https://github.com/IuliiaPi"> 
+            <img
+              class="github"
+              src="https://github.githubassets.com/images/modules/logos_page/GitHub-Mark.png"
+              alt="github"
+              width="20"
+              height="20"
+          />
+          IuliiaPi
+        </a>
+        </div>
+
+        <div>
+        <time> 2022 </time>
+      </div>
+
+        <div>
+          <a href="https://rs.school/js/">
+            <img
+              class="rs_school_img"
+              src="https://rs.school/images/rs_school_js.svg"
+              alt="rs_school"
+              width="50"
+              height="50"
+          /></a>
+        </div>
+      </div>
+    </footer>
+  </body>
+
+  <script>
+    function injectCss(file = 'style.css') {
+      fetch(file)
+        .then((response) => response.text())
+        .then((data) => {
+          let stl = document.createElement('style');
+          stl.innerHTML = data;
+          document.head.appendChild(stl);
+        });
+    }
+
+    function injectAll() {
+      let links = document.getElementsByTagName('link');
+      for (stl of links) {
+        injectCss(stl.href);
+      }
+    }
+
+    window.onload = injectAll;
+  </script>
+</html>
